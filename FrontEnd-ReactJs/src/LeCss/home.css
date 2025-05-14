@@ -1,0 +1,178 @@
+
+  /* home.css */
+
+/* Réinitialisation générale */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fond général */
+body {
+  background: linear-gradient(#00303B, #000812);
+  color: white;
+  font-family: "Madimi One", sans-serif;
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poetsen One", "Madimi One", sans-serif;
+}
+
+/* Boutons */
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button.primary {
+  background-color: #FF7777;
+  color: #00303B;
+  font-weight: bold;
+}
+
+button.primary:hover {
+  background-color: #ff8f8f;
+}
+
+button.secondary {
+  border: 2px solid #FFCE96;
+  color: #FFCE96;
+  background: transparent;
+}
+
+button.secondary:hover {
+  background-color: #FFCE96;
+  color: #00303B;
+}
+
+/* Header */
+header {
+  position: fixed;
+  width: 100%;
+  /* background: rgba(0, 48, 59, 0.9); */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+/* Input */
+input[type="search"] {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #004050;
+  background-color: #002129;
+  color: white;
+}
+
+input[type="search"]:focus {
+  border-color: #FF7777;
+  outline: none;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 20px;
+  background: linear-gradient(to right, #00303B, transparent);
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+/* Grid Films */
+.film-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.film-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.film-item img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.film-item:hover img {
+  transform: scale(1.05);
+}
+
+
+
+/** Pour le Upload */
+
+/* From Uiverse.io by vinodjangid07 */ 
+.file-upload-form {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFCE96;
+}
+.file-upload-label input {
+  display: none;
+}
+.file-upload-label svg {
+  height: 50px;
+  fill: #FFCE96;
+  margin-bottom: 20px;
+}
+.file-upload-label {
+  cursor: pointer;
+  background-color: #004050;
+  padding: 30px 70px;
+  border-radius: 40px;
+  border: 2px dashed #FFCE96;
+}
+
+.file-upload-label:hover {
+  cursor: pointer;
+  background-color: #004050;
+  padding: 30px 70px;
+  border-radius: 40px;
+  border: 2px dashed #FF7777;
+}
+.file-upload-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.browse-button {
+  background-color: #FFCE96;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: #002129;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+.browse-button:hover {
+  background-color: #FF7777;
+  color: #002129;
+}

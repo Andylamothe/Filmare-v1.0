@@ -1,0 +1,14 @@
+node_modules
+build
+dist
+config
+.env
+.gitignore
+.vscode
+.cache
+.docker
+.ssh
+.vs-code-server
+docker-compose.yaml
+Dockerfile
+README.md

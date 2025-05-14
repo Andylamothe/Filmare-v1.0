@@ -1,0 +1,187 @@
+.bgcolor {
+  background-color: #00303B;
+}
+
+.mainColor {
+  background-color: #FF7777;
+}
+
+.secondaryColor {
+  background-color: #FFCE96;
+}
+
+/* From Uiverse.io by devkatyall */
+/* The design is inspired from Galahhad*/
+
+.andylink{
+  color: #FF7777;
+}
+.andylink:hover{
+  color: #ff7777b0;
+}
+.andyh1 {
+  color: #ff7777;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #020100;
+  font-family: Bungee;
+  margin: 0px;
+  font-size: 1.5rem;
+}
+.andyspan{
+  color: #FFCE96;
+  text-shadow: 2px 2px 5px #020100;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #00303B;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logoAndy {
+  height: 40px;
+  width: auto;
+  transition: ease 0.3s;
+}
+
+.logoAndy:hover {
+  transform: scale(1.1);
+}
+
+.andyh1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #FF7777;
+  transition: color 0.2s;
+}
+
+.icon-button:hover {
+  color: #FFCE96;
+}
+
+.search-input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #FF7777;
+  border-radius: 20px;
+  width: 300px;
+  font-size: 0.9rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #FFCE96;
+}
+
+.user-menu {
+  position: relative;
+}
+
+.menu-dropdown {
+  position: absolute;
+  top: 130%;
+  right: 0;
+  background-color: #00303B;
+  border: 1px solid #FF7777;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.384);
+  min-width: 200px;
+  z-index: 1000;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  color: #FF7777;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  width: 100%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 119, 119, 0.1);
+  color: #FFCE96;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.auth-button {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.auth-button.login {
+  color: #FF7777;
+  border: 1px solid #FF7777;
+}
+
+.auth-button.login:hover {
+  background-color: #FF7777;
+  color: #00303B;
+}
+
+.auth-button.register {
+  background-color: #FF7777;
+  color: #00303B;
+}
+
+.auth-button.register:hover {
+  background-color: #FFCE96;
+  color: #00303B;
+}
+
+
+.close-svg{
+  transition:  ease-in 0.2s;
+}
+
+.close-svg:hover{
+  transform: scale(1.2);
+  fill: #FFCE96;
+}
